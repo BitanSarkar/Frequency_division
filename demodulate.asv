@@ -1,0 +1,6 @@
+function output = demodulate(channel, c,L)
+temp=[];
+temp=c(1:L).*channel;
+Y=fft(temp,102);
+rect=zeros(size(Y));
+rect(
