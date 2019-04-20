@@ -15,28 +15,28 @@ function output = get_output(channel,L)
            output1 = [];
     output1=demodulate(channel,c1,L);
     sound(output1,F_s);
-    pause(1);
+    pause(5);
     disp("End of message 1");
     
     disp("Playing message 2");
        output2 = [];
            output2=demodulate(channel,c2,L);
      sound(output2,F_s);
-    pause(1);
+    pause(5);
     disp("End of message 2");
       
     disp("Playing message 3");
            output3 = [];
        output3=demodulate(channel,c3,L);
      sound(output3,F_s);
-    pause(1);
+    pause(5);
     disp("End of message 3");
     
     disp("Playing message 4");
            output4 = [];
        output4=demodulate(channel,c4,L);
      sound(output4,F_s);
-    pause(1);
+    pause(5);
     disp("End of message 4");
     
 end
